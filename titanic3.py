@@ -212,4 +212,4 @@ predictions = pd.DataFrame(clf.predict(dum_X_test),columns=['predictions'])
 sub_df = pd.concat([pid,predictions],axis=1)
 #sub_df.rename(columns={'PassengerId':'pid',0:'predictions'},inplace=True)
 
-sub_df.to_csv(r'G:\bhanu\data\titanic\titanic_passenger_predictions.csv',index=False)
+sub_df.to_csv(r'G:\bhanu\data\titanic\titanic_passenger_predictions.csv',index=False) 
